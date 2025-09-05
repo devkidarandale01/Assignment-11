@@ -35,3 +35,12 @@
     transition: color 0.3s, transform 0.2s;
     position: relative;
 }
+.bottom-nav .nav-item.pay-button {
+    background: #1a73e8; /* GPay blue */
+    color: #fff;
+    padding: 12px;
+    border-radius: 50%;
+    margin-top: -20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    font-size: 24px;
+}
