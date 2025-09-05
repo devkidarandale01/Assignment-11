@@ -44,3 +44,21 @@
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     font-size: 24px;
 }
+.bottom-nav .nav-item .material-icons {
+    font-size: 24px;
+}
+
+.bottom-nav .nav-item.active:not(.pay-button) {
+    color: #000; /* active tab color */
+}
+
+.bottom-nav .nav-item:hover:not(.pay-button) {
+    color: #000;
+}
+
+
+@media (max-width: 400px) {
+    .bottom-nav .nav-label {
+        display: none;
+    }
+}
